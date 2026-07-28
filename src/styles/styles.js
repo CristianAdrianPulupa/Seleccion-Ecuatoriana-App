@@ -60,7 +60,7 @@ export const styles = StyleSheet.create({
     height: 135,
     resizeMode: "contain",
     marginBottom: 15,
-    //marginRight: 80,
+    //marginRight: 100,
     //marginTop: 100,
   },
 
