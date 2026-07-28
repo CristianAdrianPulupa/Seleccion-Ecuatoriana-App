@@ -51,9 +51,11 @@ export default function HomeScreen() {
       </Text>
       )}
 
+      {jugador.Edad && (
       <Text style={styles.text}>
         • {jugador.Edad} años
       </Text>
+      )}
 
       <Text style={styles.text}>
         • {jugador.club}
@@ -70,6 +72,7 @@ export default function HomeScreen() {
       <Text style={styles.text}>
       •Estatura {jugador.estatura} metros
       </Text>
+      
 
       {imagenes[jugador.imagen] && (
         <Image
@@ -167,15 +170,6 @@ export default function HomeScreen() {
   </Text>
 </TouchableOpacity>
 
-<View style={styles.footer}>
-  <Text style={styles.footerText}>
-    Programación para Dispositivos Móviles - Décimo Semestre
-  </Text>
-
-  <Text style={styles.footerText}>
-    App creada con React Native y Expo Go
-  </Text>
-</View>
     </ScrollView>
   );
 }

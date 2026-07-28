@@ -9,13 +9,6 @@ export const styles = StyleSheet.create({
     padding: 20,
   },
 
-  logo: {
-    width: 190,
-    height: 190,
-    resizeMode: "contain",
-    marginBottom: 25,
-  },
-
   splashText: {
     fontSize: 34,
     fontWeight: "bold",
@@ -31,20 +24,14 @@ export const styles = StyleSheet.create({
     textAlign: "center",
   },
 
-  homeWrapper: {
-    flex: 1,
-    backgroundColor: "#07111f",
+  logo: {
+    width: 190,
+    height: 190,
+    resizeMode: "contain",
+    marginBottom: 25,
   },
 
-  homeContainer: {
-    flex: 1,
-    backgroundColor: "#07111f",
-  },
-
-
-
-  
-// Pantalla principal
+// CUADRO PRINCIPAL
   header: {
     backgroundColor: "#FFCC00",
     paddingTop: 55,
@@ -75,6 +62,7 @@ export const styles = StyleSheet.create({
     marginTop: 6,
   },
 
+// CUADRO SECUNDARIO
   card: {
     backgroundColor: "#111827",
     marginHorizontal: 20,
@@ -114,20 +102,6 @@ export const styles = StyleSheet.create({
     fontSize: 19,
     fontWeight: "bold",
   },
-
-  footer: {
-    alignItems: "center",
-    marginTop: 28,
-    marginBottom: 40,
-    paddingHorizontal: 20,
-  },
-
-  footerText: {
-    color: "#f1f4f8",
-    fontSize: 14,
-    textAlign: "center",
-    marginBottom: 5,
-  },
   Imagenes: {
     width: 220,
     height: 220,
@@ -141,6 +115,19 @@ export const styles = StyleSheet.create({
     lineHeight: 23,
     textAlign: "center",
   },
+   homeWrapper: {
+    flex: 1,
+    backgroundColor: "#07111f",
+  },
+
+  homeContainer: {
+    flex: 1,
+    backgroundColor: "#07111f",
+  },
+  tituloContainer: {
+  position: "absolute",
+  top: 70,
+},
 });
 
 

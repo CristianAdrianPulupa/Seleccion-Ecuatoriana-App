@@ -22,7 +22,8 @@
       "posición": "Delantero",
       "numero": 13,
       "lugar": "Ecuador",
-      "estatura": "1,73"
+      "estatura": "1,73",
+      "goles": 23
     },
     {
       "nombre": "Moisés Caicedo",
@@ -78,3 +79,4 @@
     "Campeón Sudamericano Sub-20 2019"
   ]
 }
+

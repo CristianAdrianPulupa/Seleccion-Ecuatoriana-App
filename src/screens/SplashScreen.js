@@ -1,5 +1,5 @@
 import React from "react";
-import { Animated, Image, Text, ImageBackground } from "react-native";
+import { Animated, Image, Text, ImageBackground, View } from "react-native";
 import { styles } from "../styles/styles";
 import seleccion from "../data/seleccion.json";
 
@@ -15,3 +15,11 @@ export default function SplashScreen({ opacity }) {
     </Animated.View>
   );
 }
+
+
+
+
+
+
+
+
