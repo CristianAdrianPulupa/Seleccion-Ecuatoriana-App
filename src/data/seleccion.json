@@ -12,7 +12,6 @@
   "capitan": "Enner Valencia",
   "ranking": "25",
   "equipo": "Ecuador-La Tri",
-
   "goleadores": [
     {
       "nombre": "Enner Valencia",
@@ -77,6 +76,11 @@
     "Clasificación a cinco Copas del Mundo",
     "Octavos de final en Alemania 2006",
     "Campeón Sudamericano Sub-20 2019"
+  ],
+  "Suplentes": [
+    "Pedro Vite",
+    "Gonzalo Plata",
+    "Yebhoa"
   ]
 }
 

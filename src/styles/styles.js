@@ -29,9 +29,10 @@ export const styles = StyleSheet.create({
     height: 190,
     resizeMode: "contain",
     marginBottom: 25,
+    //marginRight: 80,
   },
 
-// CUADRO PRINCIPAL
+// CUADRO PRINCIPAL*******************************
   header: {
     backgroundColor: "#FFCC00",
     paddingTop: 55,
@@ -40,14 +41,6 @@ export const styles = StyleSheet.create({
     borderBottomLeftRadius: 35,
     borderBottomRightRadius: 35,
   },
-
-  homeLogo: {
-    width: 135,
-    height: 135,
-    resizeMode: "contain",
-    marginBottom: 15,
-  },
-
   title: {
     fontSize: 30,
     fontWeight: "bold",
@@ -62,7 +55,16 @@ export const styles = StyleSheet.create({
     marginTop: 6,
   },
 
-// CUADRO SECUNDARIO
+  homeLogo: {
+    width: 135,
+    height: 135,
+    resizeMode: "contain",
+    marginBottom: 15,
+    //marginRight: 80,
+    //marginTop: 100,
+  },
+
+// CUADRO SECUNDARIO ****************
   card: {
     backgroundColor: "#111827",
     marginHorizontal: 20,
@@ -71,6 +73,7 @@ export const styles = StyleSheet.create({
     borderRadius: 18,
     borderWidth: 1,
     borderColor: "#1f2937",
+    
   },
 
   cardTitle: {
@@ -78,19 +81,21 @@ export const styles = StyleSheet.create({
     fontSize: 21,
     fontWeight: "bold",
     marginBottom: 12,
+    //textAlign: "center",
   },
 
   text: {
     color: "#f9fafb",
     fontSize: 16,
     lineHeight: 25,
+    //textAlign: "center",
   },
 
   button: {
     backgroundColor: "#003DA5",
-    marginHorizontal: 20,
-    marginTop: 25,
+    marginHorizontal: 25,
     padding: 17,
+    marginTop: 25,
     borderRadius: 16,
     alignItems: "center",
     borderWidth: 2,
@@ -107,6 +112,15 @@ export const styles = StyleSheet.create({
     height: 220,
     resizeMode: "contain",
     alignSelf: "center"
+    //marginleft: 80,
+  },
+   homeWrapper: {
+    flex: 1,
+  },
+  //fondo detras de los cuadros
+  homeContainer: {
+    flex: 1,
+    backgroundColor: "#07111f",
   },
   item1: {
     color: "#f9fafb",
@@ -114,15 +128,6 @@ export const styles = StyleSheet.create({
     marginBottom: 9,
     lineHeight: 23,
     textAlign: "center",
-  },
-   homeWrapper: {
-    flex: 1,
-    backgroundColor: "#07111f",
-  },
-
-  homeContainer: {
-    flex: 1,
-    backgroundColor: "#07111f",
   },
   tituloContainer: {
   position: "absolute",

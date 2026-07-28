@@ -25,15 +25,15 @@ export default function HomeScreen() {
   return (
     <ScrollView style={styles.homeContainer}>
       <View style={styles.header}>
+        <Text style={styles.title}>{seleccion.nombre}</Text>
         <Image
           source={require("../../assets/ecuador-logo.png")}
           style={styles.homeLogo}
         />
-
-        <Text style={styles.title}>{seleccion.equipo}</Text>
+                       {/* Inicio ojo */}
         <Text style={styles.subtitle}>{seleccion.apodo} {seleccion.bandera}</Text>
       </View>
- 
+                      {/* Despues del Cuadro */}
       <View style={styles.card}>
         <Text style={styles.cardTitle}>⚽ Información del Equipo</Text>
         <Text style={styles.text}>{seleccion.descripcion}</Text>
@@ -102,12 +102,11 @@ export default function HomeScreen() {
   <Text style={styles.text}>
     • Fundación: {seleccion.fundacion}
   </Text>
+
   <Text style={styles.text}>
-    • Capitán: {seleccion.fundacion}
+    • Capitán: {seleccion.capitan}
   </Text>
-  <Text style={styles.text}>
-    • Fundación: {seleccion.fundacion}
-  </Text>
+
 </View>
 
 <View style={styles.card}>
@@ -156,6 +155,7 @@ export default function HomeScreen() {
   ))}
 </View>
 
+{/* Boton ojo*/}
 <TouchableOpacity
   style={styles.button}
   onPress={() =>
@@ -169,7 +169,6 @@ export default function HomeScreen() {
     {seleccion.bandera} {seleccion.textoBoton}
   </Text>
 </TouchableOpacity>
-
     </ScrollView>
   );
 }
