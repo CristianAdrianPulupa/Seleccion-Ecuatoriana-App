@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
     //marginRight: 80,
   },
 
-// CUADRO PRINCIPAL*******************************
+// CUADRO PRINCIPAL HOME*******************************
   header: {
     backgroundColor: "#FFCC00",
     paddingTop: 55,
@@ -64,7 +64,7 @@ export const styles = StyleSheet.create({
     //marginTop: 100,
   },
 
-// CUADRO SECUNDARIO ****************
+// PARTE SECUNDARIA HOME****************
   card: {
     backgroundColor: "#111827",
     marginHorizontal: 20,

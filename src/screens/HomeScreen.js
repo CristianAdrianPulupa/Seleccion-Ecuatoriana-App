@@ -20,6 +20,9 @@ const imagenes = {
 const Participaciones = {
   "Estados Unidos, México y Canadá 2026": require("../../assets/mundial2026.jpg"),
 };
+const Convocados1 = {
+  "Enner Valencia": require("../../assets/Enner.jpg"),
+};
 
 export default function HomeScreen() {
   return (
@@ -115,8 +118,7 @@ export default function HomeScreen() {
   {seleccion.convocados.map((convocados, index) => (
     <Text key={index} style={styles.text}>
         • {convocados}
-      </Text>
-    
+       </Text>
   ))}
 </View>
 
@@ -154,6 +156,7 @@ export default function HomeScreen() {
     </Text>
   ))}
 </View>
+
 
 {/* Boton ojo*/}
 <TouchableOpacity
