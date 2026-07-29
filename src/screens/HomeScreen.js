@@ -19,8 +19,8 @@ const Participaciones = {
   "Estados Unidos, México y Canadá 2026": require("../../assets/mundial2026.jpg"),
 };
 
-const imagenes = {
-  cristian: require("../../assets/David.jpg"),
+const Perfil = {
+  cristian: require("../../assets/Cristian.png"),
 };
 export default function HomeScreen() {
   return (
@@ -144,9 +144,9 @@ export default function HomeScreen() {
       </Text>
       
 
-      {imagenes[estudiante.imagen] && (
+      {Perfil[estudiante.imagen] && (
         <Image
-          source={imagenes[estudiante.imagen]}
+          source={Perfil[estudiante.imagen]}
           style={styles.Imagenes}
         />
       )}
