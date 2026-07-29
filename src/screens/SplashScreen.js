@@ -7,11 +7,11 @@ export default function SplashScreen({ opacity }) {
   return (
     <Animated.View style={[styles.splashContainer, { opacity }]}>
       <Image
-        source={require("../../assets/ecuador-logo.png")}
+        source={require("../../assets/espana.png")}
         style={styles.logo}
       />
-      <Text style={styles.splashText}>Ecuador - La Tri </Text>
-      <Text style={styles.splashSubText}>Selección Ecuatoriana de Fútbol</Text>
+      <Text style={styles.splashText}>Bienvenido </Text>
+      <Text style={styles.splashSubText}>Torneo de Selecciones 2026</Text>
     </Animated.View>
   );
 }

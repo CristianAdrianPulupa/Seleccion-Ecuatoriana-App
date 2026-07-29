@@ -11,28 +11,35 @@ import { styles } from "../styles/styles";
 import seleccion from "../data/seleccion.json";
 
 const imagenes = {
-  enner: require("../../assets/Enner.jpg"),
-  caicedo: require("../../assets/Moises.jpg"),
-  hincapie: require("../../assets/Piero.jpg"),
-  pacho: require("../../assets/William.jpg"),
-  pedro: require("../../assets/Pedro.jpg"),
+  david: require("../../assets/David.jpg"),
+  raul: require("../../assets/Raul.jpg"),
+  fernando: require("../../assets/Fernando.jpg"),
 };
 const Participaciones = {
   "Estados Unidos, México y Canadá 2026": require("../../assets/mundial2026.jpg"),
 };
 
+const imagenes = {
+  cristian: require("../../assets/David.jpg"),
+};
 export default function HomeScreen() {
   return (
     <ScrollView style={styles.homeContainer}>
+
       <View style={styles.header}>
         <Text style={styles.title}>{seleccion.nombre}</Text>
         <Image
-          source={require("../../assets/ecuador-logo.png")}
+          source={require("../../assets/Argentina.png")}
           style={styles.homeLogo}
         />
                        {/* Inicio ojo */}
         <Text style={styles.subtitle}>{seleccion.apodo} {seleccion.bandera}</Text>
+        <Text style={styles.subtitle}>Director técnico: L.Scaloni</Text>
+        <Text style={styles.subtitle}>Capitán : L.Messi</Text>
+        <Text style={styles.subtitle}>Final : 1-0</Text>
       </View>
+
+
                       {/* Despues del Cuadro */}
       <View style={styles.card}>
         <Text style={styles.cardTitle}>⚽ Información del Equipo</Text>
@@ -58,19 +65,15 @@ export default function HomeScreen() {
       )}
 
       <Text style={styles.text}>
-        • {jugador.club}
-      </Text>
-
-      <Text style={styles.text}>
         • {jugador.posición}
       </Text>
 
-     <Text style={styles.text}>
-      •Número {jugador.numero}
+      <Text style={styles.text}>
+        • {jugador.lugar}
       </Text>
 
       <Text style={styles.text}>
-      •Estatura {jugador.estatura} metros
+      •Número de goles {jugador.goles} 
       </Text>
       
 
@@ -84,40 +87,6 @@ export default function HomeScreen() {
   ))}
 </View>
 
-<View style={styles.card}>
-  <Text style={styles.cardTitle}>📌 Datos básicos</Text>
-
-  <Text style={styles.text}>
-    • Confederación: {seleccion.confederacion}
-  </Text>
-  
-  <Text style={styles.text}>
-    • Entrenador actual: {seleccion.entrenador}
-  </Text>
-
-  <Text style={styles.text}>
-    • Estadio: {seleccion.estadio}
-  </Text>
-
-  <Text style={styles.text}>
-    • Fundación: {seleccion.fundacion}
-  </Text>
-
-  <Text style={styles.text}>
-    • Capitán: {seleccion.capitan}
-  </Text>
-
-</View>
-
-<View style={styles.card}>
-  <Text style={styles.cardTitle}>👥 Convocados destacados</Text>
-
-  {seleccion.convocados.map((convocados, index) => (
-    <Text key={index} style={styles.text}>
-        • {convocados}
-       </Text>
-  ))}
-</View>
 
 <View style={styles.card}>
   <Text style={styles.cardTitle}>🏆 Participaciones mundialistas</Text>
@@ -130,7 +99,7 @@ export default function HomeScreen() {
 
       {index === seleccion.mundiales.length - 1 && (
         <Text style={styles.item1}>
-          🌎 Mundial actual
+          🌎 Mundial actual Campeón
         </Text>
       )}
 
@@ -145,12 +114,43 @@ export default function HomeScreen() {
 </View>
 
 <View style={styles.card}>
-  <Text style={styles.cardTitle}>🏆 Premios</Text>
+  <Text style={styles.cardTitle}>Estudiante</Text>
 
-  {seleccion.premios.map((premios, index) => (
-    <Text key={index} style={styles.text}>
-      • {premios}
-    </Text>
+  {seleccion.Estudiante.map((estudiante, index) => (
+    <View key={index}>
+      
+      {estudiante.nombre && (
+      <Text style={styles.cardTitle}>
+      {estudiante.nombre}
+      </Text>
+      )}
+
+      {estudiante.Edad && (
+      <Text style={styles.text}>
+        • {estudiante.Edad} años
+      </Text>
+      )}
+
+      <Text style={styles.text}>
+        • {estudiante.universidad}
+      </Text>
+
+      <Text style={styles.text}>
+        • {estudiante.carrera}
+      </Text>
+
+      <Text style={styles.text}>
+      •Materia: {estudiante.Materia} 
+      </Text>
+      
+
+      {imagenes[estudiante.imagen] && (
+        <Image
+          source={imagenes[estudiante.imagen]}
+          style={styles.Imagenes}
+        />
+      )}
+    </View>
   ))}
 </View>
 
@@ -165,7 +165,7 @@ export default function HomeScreen() {
   }
 >
   <Text style={styles.buttonText}>
-    {seleccion.bandera} {seleccion.textoBoton}
+   {seleccion.textoBoton}
   </Text>
 </TouchableOpacity>
     </ScrollView>

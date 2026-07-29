@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   splashContainer: {
     flex: 1,
-    backgroundColor: "#FFCC00",
+    backgroundColor: "#EF3340",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
 
   splashSubText: {
     fontSize: 18,
-    color: "#EF3340",
+    color: "#0d0101",
     fontWeight: "bold",
     marginTop: 10,
     textAlign: "center",
@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
 
 // CUADRO PRINCIPAL HOME*******************************
   header: {
-    backgroundColor: "#FFCC00",
+    backgroundColor: "#0080ff",
     paddingTop: 55,
     paddingBottom: 35,
     alignItems: "center",
@@ -44,13 +44,13 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     fontWeight: "bold",
-    color: "#003DA5",
+    color: "#e4e8ee",
     textAlign: "center",
   },
 
   subtitle: {
     fontSize: 22,
-    color: "#EF3340",
+    color: "#ece4e4",
     fontWeight: "bold",
     marginTop: 6,
   },

@@ -1,86 +1,59 @@
 {
-  "nombre": "Selección Ecuatoriana",
-  "apodo": "La Tri",
-  "descripcion": "La Selección Ecuatoriana de Fútbol representa oficialmente al Ecuador en competiciones internacionales organizadas por la FIFA y la CONMEBOL.",
-  "confederacion": "CONMEBOL",
-  "entrenador": "Sebastián Beccacece",
-  "estadio": "Estadio Rodrigo Paz Delgado, Quito",
-  "bandera": "🇪🇨",
-  "textoBoton": "¡Vamos Ecuador!",
-  "mensajeAlerta": "La Tri representa el orgullo del fútbol ecuatoriano y buscará hacer historia en el Mundial 2026.",
+  "nombre": "Bienvenido",
+  "apodo": "Selección Argentina",
+  "descripcion": "La Selección Española de Fútbol representa oficialmente a España en competiciones internacionales organizadas por la FIFA y la CONMEBOL.",
+  "bandera": "🇦🇷",
+  "textoBoton": "¡Vamos España!",
+  "mensajeAlerta": "España representa el orgullo del fútbol y buscará hacer historia en el Mundial 2026.",
   "fundacion": "1925",
   "capitan": "Enner Valencia",
   "ranking": "25",
   "equipo": "Ecuador-La Tri",
   "goleadores": [
     {
-      "nombre": "Enner Valencia",
-      "imagen": "enner",
-      "Edad": 35,
-      "club": "Internacional",
+      "nombre": "David Villa",
+      "imagen": "david",
+      "Edad": 44,
       "posición": "Delantero",
-      "numero": 13,
-      "lugar": "Ecuador",
-      "estatura": "1,73",
-      "goles": 23
+      "lugar": "España",
+      "goles": 59
     },
     {
-      "nombre": "Moisés Caicedo",
-      "imagen": "caicedo",
-      "Edad": 24,
-      "club": "Chelsea",
+      "nombre": "Raúl González",
+      "imagen": "raul",
+      "Edad": 48,
       "posición": "Centrocampista",
-      "numero": 23,
-      "lugar": "Ecuador",
-      "estatura": "1,80"
+      "lugar": "España",
+      "goles": "44"
     },
     {
-      "nombre": "Piero Hincapié",
-      "imagen": "hincapie",
-      "Edad": 23,
-      "club": "Bayer Leverkusen",
-      "posición": "Defensa",
-      "numero": 3,
-      "lugar": "Ecuador",
-      "estatura": "1,90"
-    },
-    {
-      "nombre": "Willian Pacho",
-      "imagen": "pacho",
-      "Edad": 24,
-      "club": "Paris Saint-Germain",
-      "posición": "Defensa",
-      "numero": 6,
-      "lugar": "Ecuador"
+      "nombre": "Fernando Torres",
+      "imagen": "fernando",
+      "Edad": 42,
+      "posición": "Delantero",
+      "lugar": "España",
+      "goles": "37"
     }
   ],
   
-  "convocados": [
-    "Enner Valencia",
-    "Moisés Caicedo",
-    "Piero Hincapié",
-    "Willian Pacho",
-    "Pervis Estupiñán",
-    "Pedro Vite"
-  ],
-
   "mundiales": [
     "Corea y Japón 2002",
     "Alemania 2006",
+    "Sudáfrica 2010",
     "Brasil 2014",
+    "Rusia 2018",
     "Qatar 2022",
     "Estados Unidos, México y Canadá 2026"
-  ],
-
-  "premios": [
-    "Clasificación a cinco Copas del Mundo",
-    "Octavos de final en Alemania 2006",
-    "Campeón Sudamericano Sub-20 2019"
-  ],
-  "suplentes": [
-    "Gonzalo Plata",
-    "Kendry Paez",
-    "Pedro Vite"
+  ], 
+  "Estudiante": [
+    {
+      "nombre": "Cristian Pulupa",
+      "imagen": "cristian",
+      "Edad": 26,
+      "universidad": "Universidad Central del Ecuador",
+      "carrera": "Ingenieria en Sistemas",
+      "Materia": "Dispositivos móviles "
+    }
   ]
 }
 
